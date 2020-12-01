@@ -1,9 +1,9 @@
 <?php
 // DATABASE PARAMS 
 define('DB_HOST', 'localhost');
-define('DB_USER', 'name');
-define('DB_PASS', '123456');
-define('DB_NAME', 'phpmvc');
+define('DB_USER', 'your_name');
+define('DB_PASS', 'your_pass');
+define('DB_NAME', 'your_db_name');
 
 // App Root 
 define('APPROOT', dirname(dirname(__FILE__)));
@@ -11,3 +11,7 @@ define('APPROOT', dirname(dirname(__FILE__)));
 define('URLROOT', 'http://localhost/mvcphp');
 // Site name 
 define('SITENAME', 'PHPMVC');
+
+/**
+ * DONT FORGET TO CHANGE .htaccess in the main path
+ */
